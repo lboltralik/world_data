@@ -18,5 +18,5 @@ new_df = df.fillna(0)
 
 
 cwd = os.getcwd()
-path = cwd + '/new_WDI_Data'
+path = cwd + '/new_WDI_Data.csv'
 new_df.to_csv(path)
