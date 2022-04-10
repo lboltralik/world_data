@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 url = 'https://raw.githubusercontent.com/lboltralik/world_data/main/WDI_Data.csv'
-df = pd.read_csv(url)
-pd.set_option('display.float_format', lambda x: '%.2f' % x)
+df = pandas.read_csv(url)
+pandas.set_option('display.float_format', lambda x: '%.2f' % x)
 
 rcount = df.shape[0]
 i=0
